@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <!-------------------------------------NAVBAR------------------------------------------->
-    <section class="navbar">
+ <!-------------------------------------Main menu------------------------------------------->
+    <section class="main">
         <div class="half-width" id="logo">
             <h1>Hospital Logo</h1>
         </div>
-        <div class="half-width" id="nav-menu">
+        <div class="half-width" id="main-menu">
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">SERVICE</a></li>
@@ -24,30 +24,40 @@
             </ul>
         </div>
     </section>
-<!-- ------------------------------MENU BAR------------------------------------->
-    <section class="menu">
-        <div>
-            <ul>
-                <li><a href="#">Appointment Confirmation</a></li>
-                <li><a href="#">Direction</a></li>
-                <li><a href="#">Brief of Medicine</a></li>
-                <li><a href="#">Cost of Medicine</a></li>
-                <li><a href="#">Symtom Checking</a></li>
-                <li><a href="#">Overall Fees</a></li>
-                <li><a href="#">Lab Information</a></li>
-                <li><a href="#">Loyalty Point</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <section >
-        <div>
-            <ul id="sub-menu">
-                <li><a href="#">Doctor List</a></li>
-                <li><a href="#">Time</a></li>
-                <li><a href="#">Appointment Slot</a></li>
-            </ul>
-        </div>
+<!-- ------------------------------Nav BAR------------------------------------->
+    <section>
+        <div class="navbar">
+            <div class="nav">
+                <div class="subnav">
+                    <button class="subnavbtn">Appointment Confirmation<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="#">Doctor List</a>
+                      <a href="#">Time</a>
+                      <a href="#">Appointment Slot</a>
+                    </div>
+                  </div>
+        
+                <div class="subnav">
+                  <button class="subnavbtn">Location<i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#">Hospital</a>
+                    <a href="#">Root</a>
+                  </div>
+                </div>
+        
+                <div class="subnav">
+                  <button class="subnavbtn">Brief of Medicine<i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#">Alternative</a>
+                    <a href="#">Avaibility</a>
+                  </div>
+                </div>
+                <a href="#">Cost of Medicine</a>
+                <a href="#">Symtom Checking</a>
+                <a href="#">Overall Fees</a>
+                <a href="#">Lab Information</a>
+            </div>
+          </div>
     </section>
 <!--------------------------------------CHAT BOX--------------------------------- -->
     <section class="chat-box">
